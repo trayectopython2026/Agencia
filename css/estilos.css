@@ -71,8 +71,47 @@ nav ul li a {
     border-radius: 8px;
 }
 
+/* Contacto */
+
+.form-name{
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--fondo-azul);
+    text-transform: uppercase;
+}
+
+form {
+    background-color: var(--fondo-gris);
+    padding: 20px;
+    border-radius: 8px;
+    width: 350px;
+    margin: 0 auto ;
+}
+
+label {
+   display: block; 
+   margin: 10px 5px;
+}
+
+input,textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
 
+button {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: var(--fondo-azul);
+    color: var(--texto-blanco);
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    
+}
 
 
 
